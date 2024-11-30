@@ -9,13 +9,11 @@ Este script de Python busca una secuencia específica de nucleótidos o aminoác
 
 **Funcionalidades:**
 
-* **Lectura de archivos multifasta:** Lee archivos en formato FASTA, con secuencias en nucleotidos o aminoácidos.
+* **Lectura de archivos multifasta:** Lee archivos en formato FASTA, con secuencias en nucleotidos o aminoácidos. Es importante aclarar que solo funciona con archivos cuya extensión sea .fasta, si tiene archivos con extensión .fna o .faa, sugiero renombrarlos, por ejemplo. Archivo_faa.fasta o Archivo_fna.fasta para no generar errores.
 * **Búsqueda de secuencias:** Busca la secuencia específica proporcionada dentro de las secuencias del archivo.
 * **Salida:** Devuelve una lista de los encabezados (">") de las secuencias que contienen la secuencia buscada.
 
 ## Cómo utilizar
 
 1. **Clonar el repositorio:** Si el código se encuentra en un repositorio Git, clona el repositorio en tu máquina local.
-2. **Ejecutar el script:** Abre una terminal y ejecuta el script utilizando Python. 
-3. **Archivo multifasta** Proporcione la ruta y/o el nombre del archivo fasta en el cual desea buscar secuencias específica.
-4. **Secuencia a buscar** Proporcine directamente su secuencia de interés bien sea en nucleotidos o aminoácidos.
+2. **Ejecutar el script:** Abre una terminal y ejecuta el script utilizando Python. A continuación, el código solicitará la ruta al archivo multifasta y la secuencia que desea buscar.
