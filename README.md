@@ -15,5 +15,5 @@ Este script de Python busca una secuencia específica de nucleótidos o aminoác
 
 ## Cómo utilizar
 
-1. **Clonar el repositorio:** Si el código se encuentra en un repositorio Git, clona el repositorio en tu máquina local. Puedes descargar los 2 archivos .fasta de prueba.
-2. **Ejecutar el script:** Abre una terminal y ejecuta el script utilizando Python. A continuación, el código solicitará la ruta al archivo multifasta y la secuencia que desea buscar.
+1. **Clonar el repositorio:** Si el código se encuentra en un repositorio Git, clona el repositorio en tu máquina local. Puedes descargar los 2 archivos .fasta de prueba incluidos en el repositorio (Cordylancistrus_faa.fasta y Cordylancistrus_fna.fasta)
+3. **Ejecutar el script:** Abre una terminal y ejecuta el script utilizando Python. A continuación, el código solicitará la ruta al archivo multifasta y la secuencia que desea buscar.
